@@ -1,0 +1,6 @@
+EN spi_master NULL /home/uvs/Bureau/spi/spi_master.vhd sub00/vhpl02 1539589567
+AR spi_master logic /home/uvs/Bureau/spi/spi_master.vhd sub00/vhpl03 1539589568
+EN pmodals_led NULL /home/uvs/Bureau/spi/spi314.vhd sub00/vhpl04 1539589569
+AR pmodals_led architecture_pmodals_led /home/uvs/Bureau/spi/spi314.vhd sub00/vhpl05 1539589570
+AR spi314 behavioral /home/uvs/Bureau/spi/spi314.vhd sub00/vhpl01 1538984790
+EN spi314 NULL /home/uvs/Bureau/spi/spi314.vhd sub00/vhpl00 1538984789

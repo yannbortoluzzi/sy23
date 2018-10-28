@@ -1,0 +1,25 @@
+Running: /opt/Xilinx/14.2/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/uvs/Bureau/spi/spytest_isim_beh.exe -prj /home/uvs/Bureau/spi/spytest_beh.prj work.spytest 
+ISim P.28xd (signature 0x54af6ca1)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/uvs/Bureau/spi/spi_master.vhd" into library work
+Parsing VHDL file "/home/uvs/Bureau/spi/spi314.vhd" into library work
+Parsing VHDL file "/home/uvs/Bureau/spi/spytest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96328 KB
+Fuse CPU Usage: 1150 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture logic of entity spi_master [\spi_master(1,15)\]
+Compiling architecture architecture_pmodals_led of entity pmodals_led [pmodals_led_default]
+Compiling architecture behavior of entity spytest
+Time Resolution for simulation is 1ps.
+Compiled 9 VHDL Units
+Built simulation executable /home/uvs/Bureau/spi/spytest_isim_beh.exe
+Fuse Memory Usage: 406544 KB
+Fuse CPU Usage: 1240 ms
+GCC CPU Usage: 360 ms

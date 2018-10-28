@@ -1,0 +1,13 @@
+Release 14.2 Drc P.28xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Mon Oct  8 09:47:16 2018
+
+drc -z spi314.ncd spi314.pcf
+
+WARNING:PhysDesignRules:367 - The signal <SPI_MISO_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <reset_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

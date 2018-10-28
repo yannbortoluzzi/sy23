@@ -1,0 +1,29 @@
+Command line:
+   pmodals_led_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  32885
+
+Mon Oct 15 09:21:05 2018
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 198.406 Meg
+
+ Total Signals          : 41
+ Total Nets             : 93
+ Total Signal Drivers   : 18
+ Total Blocks           : 5
+ Total Primitive Blocks : 4
+ Total Processes        : 3
+ Total Traceable Variables  : 12
+ Total Scalar Nets and Variables : 473
+Total Line Count : 67
+
+ Total Simulation Time: 0.08 sec
+
+ Current Memory Usage: 273.908 Meg
+
+Mon Oct 15 09:23:06 2018
+

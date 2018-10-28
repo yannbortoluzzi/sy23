@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/uvs/Bureau/spi/spytest_isim_beh.exe" -prj "/home/uvs/Bureau/spi/spytest_beh.prj" "work.spytest" 

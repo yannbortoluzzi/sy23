@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Mon Oct 08 09:46:41 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Led<3>" LOCATE = SITE "F11" LEVEL 1;
+COMP "Led<4>" LOCATE = SITE "C11" LEVEL 1;
+COMP "Led<5>" LOCATE = SITE "D11" LEVEL 1;
+COMP "Led<6>" LOCATE = SITE "E9" LEVEL 1;
+COMP "Led<7>" LOCATE = SITE "F9" LEVEL 1;
+COMP "clk" LOCATE = SITE "C9" LEVEL 1;
+COMP "SPI_MISO" LOCATE = SITE "E13" LEVEL 1;
+COMP "reset" LOCATE = SITE "D18" LEVEL 1;
+COMP "SPI_CLK" LOCATE = SITE "B11" LEVEL 1;
+COMP "Led<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "Led<1>" LOCATE = SITE "E12" LEVEL 1;
+COMP "Led<2>" LOCATE = SITE "E11" LEVEL 1;
+SCHEMATIC END;
+

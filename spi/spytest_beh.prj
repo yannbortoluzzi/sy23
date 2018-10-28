@@ -1,0 +1,3 @@
+vhdl work "spi_master.vhd"
+vhdl work "spi314.vhd"
+vhdl work "spytest.vhd"

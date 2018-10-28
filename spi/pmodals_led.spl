@@ -1,0 +1,9 @@
+[Inputs]
+clk
+reset
+SPI_MISO
+[Outputs]
+SPI_CLK
+=Led[7:0]=
+=SPI_CS[3:0]=
+[BiDir]

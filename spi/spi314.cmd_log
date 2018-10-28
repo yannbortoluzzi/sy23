@@ -1,0 +1,62 @@
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 spi314.ngc spi314.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o spi314_map.ncd spi314.ngd spi314.pcf 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 spi314.ngc spi314.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o spi314_map.ncd spi314.ngd spi314.pcf 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 spi314.ngc spi314.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o spi314_map.ncd spi314.ngd spi314.pcf 
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o spi314_map.ncd spi314.ngd spi314.pcf 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc s3esk.ucf -p xc3s500e-fg320-5 spi314.ngc spi314.ngd  
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc s3esk.ucf -p xc3s500e-fg320-5 spi314.ngc spi314.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc s3esk.ucf -p xc3s500e-fg320-5 spi314.ngc spi314.ngd  
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc s3esk.ucf -p xc3s500e-fg320-5 spi314.ngc spi314.ngd  
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc s3esk.ucf -p xc3s500e-fg320-5 spi314.ngc spi314.ngd  
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc s3esk.ucf -p xc3s500e-fg320-5 spi314.ngc spi314.ngd  
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc s3esk.ucf -p xc3s500e-fg320-5 spi314.ngc spi314.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o spi314_map.ncd spi314.ngd spi314.pcf 
+par -w -intstyle ise -ol high -t 1 spi314_map.ncd spi314.ncd spi314.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml spi314.twx spi314.ncd -o spi314.twr spi314.pcf -ucf s3esk.ucf 
+bitgen -intstyle ise -f spi314.ut spi314.ncd 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc s3esk.ucf -p xc3s500e-fg320-5 spi314.ngc spi314.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o spi314_map.ncd spi314.ngd spi314.pcf 
+par -w -intstyle ise -ol high -t 1 spi314_map.ncd spi314.ncd spi314.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml spi314.twx spi314.ncd -o spi314.twr spi314.pcf -ucf s3esk.ucf 
+bitgen -intstyle ise -f spi314.ut spi314.ncd 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc s3esk.ucf -p xc3s500e-fg320-5 spi314.ngc spi314.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o spi314_map.ncd spi314.ngd spi314.pcf 
+par -w -intstyle ise -ol high -t 1 spi314_map.ncd spi314.ncd spi314.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml spi314.twx spi314.ncd -o spi314.twr spi314.pcf -ucf s3esk.ucf 
+bitgen -intstyle ise -f spi314.ut spi314.ncd 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc s3esk.ucf -p xc3s500e-fg320-5 spi314.ngc spi314.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o spi314_map.ncd spi314.ngd spi314.pcf 
+par -w -intstyle ise -ol high -t 1 spi314_map.ncd spi314.ncd spi314.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml spi314.twx spi314.ncd -o spi314.twr spi314.pcf -ucf s3esk.ucf 
+bitgen -intstyle ise -f spi314.ut spi314.ncd 
+xst -intstyle ise -ifn "/home/uvs/Bureau/spi/spi314.xst" -ofn "/home/uvs/Bureau/spi/spi314.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc s3esk.ucf -p xc3s500e-fg320-5 spi314.ngc spi314.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o spi314_map.ncd spi314.ngd spi314.pcf 
+par -w -intstyle ise -ol high -t 1 spi314_map.ncd spi314.ncd spi314.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml spi314.twx spi314.ncd -o spi314.twr spi314.pcf -ucf s3esk.ucf 
+bitgen -intstyle ise -f spi314.ut spi314.ncd 

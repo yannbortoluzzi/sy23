@@ -1,0 +1,3 @@
+vhdl isim_temp "spi_master.vhd"
+vhdl isim_temp "spi314.vhd"
+vhdl isim_temp "spytest.vhd"

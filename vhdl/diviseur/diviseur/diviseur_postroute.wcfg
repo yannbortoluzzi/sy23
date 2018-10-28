@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/michel/xilinx/starterkit/diviseur/diviseur_test_isim_par.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="diviseur_test" />
+            <top_module name="std_logic_1164" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpackage" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/diviseur_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/diviseur_test/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/diviseur_test/en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/diviseur_test/led" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">led</obj_property>
+      <obj_property name="ObjectShortName">led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/diviseur_test/uut/tc_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tc_out</obj_property>
+      <obj_property name="ObjectShortName">tc_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/diviseur_test/uut/ut_diviseur_cpt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ut_diviseur_cpt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ut_diviseur_cpt[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

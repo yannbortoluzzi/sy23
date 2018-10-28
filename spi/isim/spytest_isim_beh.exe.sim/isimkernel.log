@@ -1,0 +1,29 @@
+Command line:
+   spytest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  40336
+
+Mon Oct 15 09:47:34 2018
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 198.32 Meg
+
+ Total Signals          : 48
+ Total Nets             : 106
+ Total Signal Drivers   : 22
+ Total Blocks           : 6
+ Total Primitive Blocks : 4
+ Total Processes        : 6
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 487
+Total Line Count : 81
+
+ Total Simulation Time: 0.05 sec
+
+ Current Memory Usage: 273.822 Meg
+
+Mon Oct 15 09:49:03 2018
+

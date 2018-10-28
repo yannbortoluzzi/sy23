@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/uvs/Bureau/spi/pmodals_led.ncd
+OUTFILE=/home/uvs/Bureau/spi/pmodals_led.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/uvs/Bureau/spi
+LICENSE=WebPack
+USER_INFO=174205060_177080676_0_774

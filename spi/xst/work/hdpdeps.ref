@@ -1,0 +1,13 @@
+V3 7
+FL /home/uvs/Bureau/spi/spi314.vhd 2018/10/15.09:45:59 P.28xd
+EN work/pmodals_led 1539589569 FL /home/uvs/Bureau/spi/spi314.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/pmodals_led/architecture_pmodals_led 1539589570 \
+      FL /home/uvs/Bureau/spi/spi314.vhd EN work/pmodals_led 1539589569 \
+      CP spi_master
+FL /home/uvs/Bureau/spi/spi_master.vhd 2018/10/15.08:58:57 P.28xd
+EN work/spi_master 1539589567 FL /home/uvs/Bureau/spi/spi_master.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/std_logic_arith 1341906177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1341906179
+AR work/spi_master/logic 1539589568 \
+      FL /home/uvs/Bureau/spi/spi_master.vhd EN work/spi_master 1539589567
