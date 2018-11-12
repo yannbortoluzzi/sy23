@@ -16,6 +16,6 @@ void loop() {
   receive[1]=SPI.transfer(0);
   digitalWrite(PORT,HIGH);
   int lux=(receive[0]<<3)|(receive[1]>>4); 
-  Serial.print("Lum : ");
+  Serial.print("Lumière : ");
   Serial.println(lux);
 }
